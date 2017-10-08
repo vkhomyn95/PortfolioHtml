@@ -1,0 +1,58 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header{
+    background-color: rgba(232, 99, 78, 1);
+}
+
+
+/* ================================= 
+ 	Page Elements
+==================================== */
+.logo a{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+/* ---- Navigation ---- */
+
+.main-nav a{
+    color: white;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.main-nav a:last-child{
+    margin-right: 0;
+}
+
+.main-nav i{
+    margin-right: 3px;
+}
