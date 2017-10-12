@@ -20,11 +20,14 @@ a{
 /* ---- Layout Containers ---- */
 
 .wrapper{
-    display: flex;
     width: 80%;
     margin: 0 auto;
+  
+}
+.header-wrapper {
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
 .main-header{
@@ -55,4 +58,33 @@ a{
 
 .main-nav i{
     margin-right: 3px;
+}
+.banner-avatar{
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 40px 0;
+}
+
+.banner-caption{
+    position: absolute;
+    bottom: 60px;
+    font-family: 'Josefin Slab', serif;
+    color: #e7624d;
+    text-align: center;
+}
+
+.banner-heading{
+    font-size: 4.5vw;
+    margin-bottom: 20px;
+}
+
+.banner-subheading{
+    font-size: 3vw;
 }
