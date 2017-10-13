@@ -11,6 +11,9 @@
 a{
     text-decoration: none;
 }
+body{
+    font-family: Arial, sans-serif;
+}
 
 
 /* ================================= 
@@ -22,12 +25,11 @@ a{
 .wrapper{
     width: 80%;
     margin: 0 auto;
-  
 }
 .header-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
 .main-header{
@@ -88,3 +90,121 @@ a{
 .banner-subheading{
     font-size: 3vw;
 }
+/* common section styles */
+
+.about-section{
+    background-color: #E5E2D3;
+    color: #e7624d;
+}
+
+h3 {
+    color:#3d2c00;
+}
+
+.about-wrapper{
+    padding: 40px 0;
+}
+
+.heading-line{
+    border-bottom: 2px solid lightgray;
+    line-height: 0;
+    text-align: center;
+}
+
+.section-heading{
+    background: #E5E2D3;
+    display: inline;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex: 1 0 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-heading{
+    text-transform: uppercase;
+    border-bottom: 1px solid #e7624d;
+    margin: 10px 0;
+    padding: 10px;
+    font: lighter 1.2rem 'Josefin Slab', serif;
+}
+
+.col p{
+    line-height: 1.6rem;
+    font-size: 14px;
+    text-align: center;
+}
+.wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+.game-section {
+    background-color: #E5E2D3;
+    color: #e7624d;
+    padding: 20px 0;
+}
+.second-line {
+    border-bottom: 2px solid lightgray;
+    line-height: 0;
+    text-align: center;
+}
+#text-catch {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.score {
+    background-color: #fffee5;
+    border-radius: 10px;
+    color: black;
+    padding: 3px;
+    margin: 25px 20px;
+}
+.math {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.start {
+  background-color: #f90909;
+  margin: 10px 20px ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+
+}
+.start:hover {
+    display : block;
+    background-color: #ba2b0e;
+}
+.game-window {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:500px;
+    background-color: #fafafa;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+footer {
+    width:100%;
+    height:100px;
+    background-color:#2d4751;
+}
+
+ 
